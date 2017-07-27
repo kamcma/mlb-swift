@@ -1,4 +1,4 @@
-public enum Division: Int {
+public enum MLBDivision: Int {
     case alWest = 200
     case alEast = 201
     case alCentral = 202
