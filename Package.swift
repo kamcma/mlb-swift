@@ -1,8 +1,14 @@
+// swift-tools-version:4.0
+
 import PackageDescription
 
 let package = Package(
     name: "MLB",
+    products: [
+        .library(name: "MLB", targets: ["MLB"])
+    ],
     targets: [
-        Target(name: "MLB")
-    ]
+        .target(name: "MLB")
+    ],
+    swiftLanguageVersions: [3, 4]
 )

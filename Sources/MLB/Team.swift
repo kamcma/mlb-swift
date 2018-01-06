@@ -1,4 +1,4 @@
-public enum MLBTeam: Int {
+public enum Team: Int {
     case baltimore = 110
     case boston = 111
     case nyYankees = 147
