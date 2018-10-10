@@ -35,3 +35,5 @@ public enum Team: Int {
     case sanDiego = 135
     case sanFrancisco = 137
 }
+
+extension Team: CaseIterable { }

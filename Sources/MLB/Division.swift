@@ -6,3 +6,5 @@ public enum Division: Int {
     case nlEast = 204
     case nlCentral = 205
 }
+
+extension Division: CaseIterable { }
